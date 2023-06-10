@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply font-roboto text-lg text-textColor;
+	}
+}
+
+@layer components {
+	.container {
+		@apply max-w-[1140px] mx-auto px-[15px];
+	}
+
+	.title {
+		@apply text-[40px] leading-[100%] text-[#666666];
+	}
+}
